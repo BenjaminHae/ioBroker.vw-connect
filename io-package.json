@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "vw-connect",
-    "version": "0.7.9",
+    "version": "0.7.10-alpha.0",
     "news": {
+      "0.7.10-alpha.0": {
+        "en": "implement ventilation",
+        "de": "lüftung",
+        "ru": "осуществлять вентиляцию",
+        "pt": "ventilação do implemento",
+        "nl": "gebruik maken van ventilatie",
+        "fr": "mettre en œuvre la ventilation",
+        "it": "implementare la ventilazione",
+        "es": "implantación de ventilación",
+        "pl": "wdrożenie wentylacji",
+        "uk": "вентиляція",
+        "zh-cn": "实施通风"
+      },
       "0.7.9": {
         "en": "fix for id wall charger",
         "de": "Fix für id wall charger",
@@ -80,19 +93,6 @@
         "pl": "fix for skoda logowanie",
         "uk": "виправлення для входу в скоду",
         "zh-cn": "用于 skoda 登录的修复"
-      },
-      "0.6.0": {
-        "en": "add additonal cupra states",
-        "de": "Zusätzliche Cupra States hinzugefügt",
-        "ru": "добавочные состояния",
-        "pt": "additonal cupra estados",
-        "nl": "additunal cupra states toevoegen",
-        "fr": "ajouter les états cupra additonal",
-        "it": "aggiungere stati cupra additonali",
-        "es": "añadir estados de cúpula",
-        "pl": "additonal cupra states",
-        "uk": "additonal cupra стани",
-        "zh-cn": "添加额外 cupra 状态"
       }
     },
     "title": "VW Connect",
@@ -120,7 +120,10 @@
       "pl": "Adapter do VW Connect",
       "zh-cn": "大众我们连接的适配器"
     },
-    "authors": ["ta2k <tombox2020@gmail.com>", "Sneak-L8 <git@sengler.de>"],
+    "authors": [
+      "ta2k <tombox2020@gmail.com>",
+      "Sneak-L8 <git@sengler.de>"
+    ],
     "keywords": [
       "VW",
       "Connect",
@@ -163,7 +166,10 @@
     {
       "condition": {
         "operand": "and",
-        "rules": ["oldVersion<0.7.0", "newVersion>=0.7.0"]
+        "rules": [
+          "oldVersion<0.7.0",
+          "newVersion>=0.7.0"
+        ]
       },
       "title": {
         "en": "Adapter Change for Skoda and Seat",
@@ -192,7 +198,10 @@
         "zh-cn": "适配器已完全更改为 Skoda 和 Seat。请删除旧状态，并将您的 vis 和脚本调整为新状态。"
       },
       "level": "warn",
-      "buttons": ["agree", "cancel"]
+      "buttons": [
+        "agree",
+        "cancel"
+      ]
     }
   ],
   "native": {

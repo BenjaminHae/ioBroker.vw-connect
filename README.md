@@ -40,7 +40,11 @@ You can set climatisaton temperature in
 
 ```
 
+
 ## Changelog
+### 0.7.10-alpha.0 (2025-05-02)
+
+- implement ventilation
 
 ### 0.7.9 (2025-03-20)
 
