@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "vw-connect",
-    "version": "0.7.10-alpha.0",
+    "version": "0.7.10-alpha.1",
     "news": {
+      "0.7.10-alpha.1": {
+        "en": "implement ventilation",
+        "de": "lüftung",
+        "ru": "осуществлять вентиляцию",
+        "pt": "ventilação do implemento",
+        "nl": "gebruik maken van ventilatie",
+        "fr": "mettre en œuvre la ventilation",
+        "it": "implementare la ventilazione",
+        "es": "implantación de ventilación",
+        "pl": "wdrożenie wentylacji",
+        "uk": "вентиляція",
+        "zh-cn": "实施通风"
+      },
       "0.7.10-alpha.0": {
         "en": "implement ventilation",
         "de": "lüftung",
@@ -80,19 +93,6 @@
         "pl": "fixed for skoda and seat\nProszę usunąć stare stany pod obiektami",
         "uk": "кріплення для соди і сидіння\nДержавна структура змінилася комплетально, будь ласка, видаліть старі стани під об'єктами",
         "zh-cn": "斯柯达和座位的固定\n国家结构已完全更改, 请删除对象下的旧状态"
-      },
-      "0.6.1": {
-        "en": "fix for skoda login",
-        "de": "fix für skoda login",
-        "ru": "исправить для skoda login",
-        "pt": "correção para o login skoda",
-        "nl": "fix voor skoda login",
-        "fr": "correction pour la connexion skoda",
-        "it": "correzione per skoda login",
-        "es": "fix for skoda login",
-        "pl": "fix for skoda logowanie",
-        "uk": "виправлення для входу в скоду",
-        "zh-cn": "用于 skoda 登录的修复"
       }
     },
     "title": "VW Connect",
