@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "vw-connect",
-    "version": "0.7.10-alpha.1",
+    "version": "0.7.10-alpha.2",
     "news": {
+      "0.7.10-alpha.2": {
+        "en": "implement ventilation\nfix token issue",
+        "de": "lüftung\nfix token problem",
+        "ru": "осуществлять вентиляцию\nобсуждение fix theken issue",
+        "pt": "ventilação do implemento\ncorrigir problema token",
+        "nl": "gebruik maken van ventilatie\ntoken probleem oplossen",
+        "fr": "mettre en œuvre la ventilation\ncorrection d'un problème de jeton",
+        "it": "implementare la ventilazione\nrisolvere problema token",
+        "es": "implantación de ventilación\nsolucionar el problema token",
+        "pl": "wdrożenie wentylacji\nfix token issue",
+        "uk": "вентиляція\nвиправлено помилку",
+        "zh-cn": "实施通风\n固定符号问题"
+      },
       "0.7.10-alpha.1": {
         "en": "implement ventilation",
         "de": "lüftung",
@@ -80,19 +93,6 @@
         "pl": "fix for set setTemperatura\nfix dla blokady odblokowania Skoda",
         "uk": "кріплення для комплектуTemperature\nзамка для розблокування Skoda",
         "zh-cn": "设定的固定\n修复 Skoda 解锁"
-      },
-      "0.7.0": {
-        "en": "fix for skoda and seat\nState structure changed completly please delete old states under Objects",
-        "de": "fix für skoda und seat\nStuktur des states sind komplett geändert bitte löschen Sie alte states unter Objekte",
-        "ru": "крепление для скоды и сиденья\nСтруктура государства изменена полностью Пожалуйста, удалите старые государства под Объекты",
-        "pt": "correção para skoda e assento\nEstrutura do estado mudou completamente por favor excluir estados antigos sob objetos",
-        "nl": "fix voor skoda en stoel\nStaat structuur volledig gewijzigd gelieve oude staten te verwijderen onder Objecten",
-        "fr": "fixation pour skoda et siège\nModifier complètement la structure de l'État veuillez supprimer les anciens états sous Objets",
-        "it": "fissaggio per skoda e sedile\nStruttura dello stato modificato completamente si prega di eliminare vecchi stati sotto Oggetti",
-        "es": "skoda y asiento\nLa estructura del Estado cambió completly por favor elimine viejos estados bajo objetos",
-        "pl": "fixed for skoda and seat\nProszę usunąć stare stany pod obiektami",
-        "uk": "кріплення для соди і сидіння\nДержавна структура змінилася комплетально, будь ласка, видаліть старі стани під об'єктами",
-        "zh-cn": "斯柯达和座位的固定\n国家结构已完全更改, 请删除对象下的旧状态"
       }
     },
     "title": "VW Connect",
